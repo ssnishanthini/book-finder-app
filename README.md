@@ -1,38 +1,110 @@
-# React + Vite
+📚 Book Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A simple and responsive React web application that allows users to search for books by title using the "Open Library API".
+The app displays book details such as the cover image, author, publication year, and subjects in a clean, user-friendly layout.
 
 
-# 📚 Book Finder App
+🚀 Live Demo
 
-A simple React application that allows users to search books using the **Open Library API**.
+🔗 [View on CodeSandbox](https://codesandbox.io/)
+*(replace this link with your actual deployed app URL)*
 
-## 🚀 Features
-- Search books by title
-- Display book cover, author, and publish year
-- Loading and error handling
-- Responsive layout using Bootstrap
 
-## 🧠 Tech Stack
-- React
-- Bootstrap
-- Open Library API
+👤 User Persona
 
-## 🔗 Live Demo
-[View on CodeSandbox](https://codesandbox.io/)
+> Name: Alex
+> Occupation: College Student
+> Need: Alex wants to easily search for books by title and view details like author, publication year, and subjects, all in one place.
 
-## 🗂️ API Used
+This app helps Alex:
+- Search for books by title  
+- View relevant book details  
+- Navigate results using pagination  
+- Enjoy a clean, responsive, and user-friendly interface  
+
+
+✨ Features
+
+> Search books by title  
+> Display book covers, authors, and publication years  
+> Pagination (Next/Previous pages)  
+> Responsive layout for desktop and mobile  
+> Graceful error handling  
+> Loading spinner while fetching data  
+
+
+🧰 Tech Stack
+
+| Category        | Technology                                                     |
+| --------------- | -------------------------------------------------------------- |
+| Framework       | React (via Vite)                                               |
+| Styling         | Plain CSS / Bootstrap                                          |
+| API             | [Open Library Search API](https://openlibrary.org/search.json) |
+| Deployment      | CodeSandbox / StackBlitz                                       |
+| Version Control | Git & GitHub                                                   |
+
+
+🧠 API Used
+
+Base URL:
+
 https://openlibrary.org/search.json?title={bookTitle}
+
+
+Book-Finder-App/
+│
+├── src/
+│   ├── components/
+│   │   ├── BookCard.jsx
+│   │   └── Navbar.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│
+├── index.html
+├── vite.config.js
+├── package.json
+└── README.md
+
+
+⚙️ Installation & Usage (React + Vite)
+
+🖥️ Run locally
+
+
+# Clone the repository
+git clone https://github.com/ssnishanthini/book-finder-app.git
+
+# Go to the project folder
+cd book-finder-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+Then open the link shown in your terminal —
+Usually it’s "[http://localhost:5173/](http://localhost:5173/)"
+
+
+🧩 Core Logic Overview
+
+1. User inputs a book title in the search bar.
+2. The app fetches results from the Open Library API using fetch().
+3. The data is stored in state (books, page, numFound).
+4. Books are displayed as responsive cards using Bootstrap.
+5. Pagination controls let the user move between pages.
+
+
+🖼️ Screenshot
+
+![Book Finder Screenshot](./image.png)
+
+
+👩‍💻 Author
+
+"Nishanthini Sivakumar"
+📧 (ssnishanthini2002@gmail.com)
+🌐 [GitHub Profile](https://github.com/ssnishanthini)
+
