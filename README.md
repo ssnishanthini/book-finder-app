@@ -3,11 +3,6 @@
 A simple and responsive React web application that allows users to search for books by title using the "Open Library API".
 The app displays book details such as the cover image, author, publication year, and subjects in a clean, user-friendly layout.
 
-# 🚀 Live Demo
-
-🔗 [View on CodeSandbox](https://codesandbox.io/)
-_(replace this link with your actual deployed app URL)_
-
 # 👤 User Persona
 
 - Name: Alex
