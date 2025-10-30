@@ -3,35 +3,32 @@
 A simple and responsive React web application that allows users to search for books by title using the "Open Library API".
 The app displays book details such as the cover image, author, publication year, and subjects in a clean, user-friendly layout.
 
-
 # 🚀 Live Demo
 
 🔗 [View on CodeSandbox](https://codesandbox.io/)
-*(replace this link with your actual deployed app URL)*
-
+_(replace this link with your actual deployed app URL)_
 
 # 👤 User Persona
 
-* Name: Alex
-* Occupation: College Student
-* Need: Alex wants to easily search for books by title and view details like author, publication year, and subjects, all in one place.
+- Name: Alex
+- Occupation: College Student
+- Need: Alex wants to easily search for books by title and view details like author, publication year, and subjects, all in one place.
 
 This app helps Alex:
-- Search for books by title  
-- View relevant book details  
-- Navigate results using pagination  
-- Enjoy a clean, responsive, and user-friendly interface  
 
+- Search for books by title
+- View relevant book details
+- Navigate results using pagination
+- Enjoy a clean, responsive, and user-friendly interface
 
 # ✨ Features
 
-- Search books by title  
-- Display book covers, authors, and publication years  
-- Pagination (Next/Previous pages)  
-- Responsive layout for desktop and mobile  
-- Graceful error handling  
-- Loading spinner while fetching data  
-
+- Search books by title
+- Display book covers, authors, and publication years
+- Pagination (Next/Previous pages)
+- Responsive layout for desktop and mobile
+- Graceful error handling
+- Loading spinner while fetching data
 
 # 🧰 Tech Stack
 
@@ -43,34 +40,30 @@ This app helps Alex:
 | Deployment      | CodeSandbox / StackBlitz                                       |
 | Version Control | Git & GitHub                                                   |
 
-
 # 🧠 API Used
 
 Base URL:
 
 https://openlibrary.org/search.json?title={bookTitle}
 
-
 # ⚙️ Installation & Usage (React + Vite)
 
 🖥️ Run locally
 
-
 - Clone the repository
-git clone https://github.com/ssnishanthini/book-finder-app.git
+  git clone https://github.com/ssnishanthini/book-finder-app.git
 
 - Go to the project folder
-cd book-finder-app
+  **cd book-finder-app**
 
 - Install dependencies
-npm install
+  **npm install**
 
 - Start the development server
-npm run dev
+  **npm run dev**
 
 Then open the link shown in your terminal —
 Usually it’s "[http://localhost:5173/](http://localhost:5173/)"
-
 
 # 🧩 Core Logic Overview
 
@@ -80,15 +73,13 @@ Usually it’s "[http://localhost:5173/](http://localhost:5173/)"
 4. Books are displayed as responsive cards using Bootstrap.
 5. Pagination controls let the user move between pages.
 
-
 # 🖼️ Screenshot
 
 ![Book Finder Screenshot](./image.png)
 
-
 # 👩‍💻 Author
 
 **Nishanthini Sivakumar**
-📧 (ssnishanthini2002@gmail.com)
-🌐 [GitHub Profile](https://github.com/ssnishanthini)
 
+- 📧 (ssnishanthini2002@gmail.com)
+- 🌐 [GitHub Profile](https://github.com/ssnishanthini)
